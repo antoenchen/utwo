@@ -1,0 +1,131 @@
+html{
+	background-color: #bab7c1;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight:normal;
+	box-sizing: border-box;
+}
+
+h1{
+	padding-left: 125px;
+	font-size: 30px;
+	color:#FFFFFF;
+	background-color: black;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+}
+
+a{
+	color: #65287c;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #65287c;
+  font-weight: bold;
+}
+
+a.thumbnail:hover{
+	background-color: #a49fb1;
+}
+
+li{
+	list-style: none
+}
+
+table{
+	background-color: #d2cddc;
+	border-collapse: collapse; 
+}
+
+td.mitglieder{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 20px;
+}
+
+td.content{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 30px;
+	border-bottom: 1px solid white;
+	border-spacing: 0px
+}
+
+td.thumbnail{
+	padding-left: 0px;
+	padding-top: 20px;
+	border-bottom: 1px solid white;
+}
+
+div.rest{
+	width: 700px;
+	margin: 50px;
+	margin-left: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	background-color: #d2cddc;
+}
+
+div.head{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 700px;
+	margin: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+div.head_text{
+	display: flex;
+	justify-content: center;
+	width: 525px;
+	margin-left: 100px;
+	padding-left: 25px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	text-align: justify;
+}
+
+
+img.head{
+	margin-top: 50px;
+	margin-bottom: 25px;
+	margin-left: 50px;
+}
+
+img.cover{
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+}
+
+p.redirect{
+	display: flex;
+	justify-content: center;
+	margin-left: 100px;
+	width: 75px;
+	height: 25px;
+	background-color: #d2cddc; 
+}
+
+
